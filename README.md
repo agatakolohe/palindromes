@@ -13,11 +13,17 @@ Purpose usage, detailed explanation what is does and any other information you w
 <details>
   <summary>Expand Specs</summary>
 
-### Describe: Palindrome()
+### Describe: ReverseWord()
 
-| Test                                | Expect                                        |
-| ----------------------------------- | --------------------------------------------- |
-| It will turn a string into an array | Palindrome(racecar).toEqual([r,a,c,e,c,a,r]); |
+| Test                   | Expect                               |
+| ---------------------- | ------------------------------------ |
+| It will reverse a word | ReverseWord("word").toEqual("drow"); |
+
+### Describe: IsPalindrome()
+
+| Test                                               | Expect                                 |
+| -------------------------------------------------- | -------------------------------------- |
+| It will return a boolean if a word is a palindrome | IsPalindrome("racecar").toEqual(true); |
 
 </details>
 
