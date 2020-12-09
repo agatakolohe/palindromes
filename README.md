@@ -13,10 +13,11 @@ Purpose usage, detailed explanation what is does and any other information you w
 <details>
   <summary>Expand Specs</summary>
 
-### Describe: functionName()
+### Describe: Palindrome()
 
-| Test | Expect |
-| ---- | ------ |
+| Test                                | Expect                                        |
+| ----------------------------------- | --------------------------------------------- |
+| It will turn a string into an array | Palindrome(racecar).toEqual([r,a,c,e,c,a,r]); |
 
 </details>
 

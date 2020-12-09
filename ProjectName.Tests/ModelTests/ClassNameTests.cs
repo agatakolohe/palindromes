@@ -1,16 +1,17 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using Palindromes;
 
-namespace ProjectName.Tests
+namespace Palindromes.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class WordsTests
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void IsWordsPalindrome_TurnStringIntoArray_True()
     {
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      Words testWords = new Words();
+      string test = "helb";
+      Assert.AreEqual(test, testWords.TurnIntoArray("bleh"));
     }    
   }
 }

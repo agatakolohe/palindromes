@@ -1,7 +1,16 @@
-namespace ProjectName
+using System;
+using System.Collections.Generic;
+
+namespace Palindromes
 {
-  public class ClassName
+  public class Words
   {
-    // properties, constructors, methods, etc. go here
+    public string TurnIntoArray(string word)
+    {
+      char[] letters = word.ToCharArray();
+      Array.Reverse(letters);
+      string reversedWord = new String(letters);
+      return reversedWord;
+    }
   }
 }
